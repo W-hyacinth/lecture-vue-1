@@ -20,6 +20,7 @@ export default {
   },
 
   onResetForm() {
+    ResultView.hide()
     console.log(tag, 'onResetForm()')
   },
 
